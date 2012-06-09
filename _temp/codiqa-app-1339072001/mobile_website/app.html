@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+        </title>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+        <link rel="stylesheet" href="my.css" />
+        <style>
+            /* App custom styles */
+        </style>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+        </script>
+        <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js">
+        </script>
+    </head>
+    <body>
+        <div data-role="page" id="page1">
+            <div data-theme="a" data-role="header" data-position="fixed">
+                <h1>
+                    dwitto!
+                </h1>
+                <h2>
+                    Yadi yadi yadi yada!
+                </h2>
+            </div>
+            <div data-role="content">
+                <div data-role="collapsible-set" data-theme="e" data-content-theme="e">
+                    <div data-role="collapsible" data-collapsed="false">
+                        <h3>
+                            Log me in!
+                        </h3>
+                        <form action="login" method="POST">
+                            <div data-role="fieldcontain">
+                                <fieldset data-role="controlgroup" data-mini="true">
+                                    <label for="textinput1">
+                                    </label>
+                                    <input id="textinput1" placeholder="Username" value="" type="text" />
+                                </fieldset>
+                            </div>
+                            <div data-role="fieldcontain">
+                                <fieldset data-role="controlgroup" data-mini="true">
+                                    <label for="textinput2">
+                                    </label>
+                                    <input id="textinput2" placeholder="Password" value="" type="password" />
+                                </fieldset>
+                            </div>
+                            <div data-role="fieldcontain">
+                                <fieldset data-role="controlgroup" data-type="vertical" data-mini="true">
+                                    <legend>
+                                    </legend>
+                                    <input name="checkbox1" id="checkbox1" type="checkbox" />
+                                    <label for="checkbox1">
+                                        Don't forget me!
+                                    </label>
+                                </fieldset>
+                            </div>
+                            <input type="submit" data-icon="arrow-r" data-iconpos="right" value="Let's go " data-mini="true" />
+                        </form>
+                    </div>
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Sign me up!
+                        </h3>
+                        <form action="">
+                            <div data-role="fieldcontain">
+                                <fieldset data-role="controlgroup" data-mini="true">
+                                    <label for="textinput3">
+                                    </label>
+                                    <input id="textinput3" placeholder="Username" value="" type="text" />
+                                </fieldset>
+                            </div>
+                            <div data-role="fieldcontain">
+                                <fieldset data-role="controlgroup" data-mini="true">
+                                    <label for="textinput6">
+                                    </label>
+                                    <input id="textinput6" placeholder="Email" value="" type="email" />
+                                </fieldset>
+                            </div>
+                            <div data-role="fieldcontain">
+                                <fieldset data-role="controlgroup" data-mini="true">
+                                    <label for="textinput4">
+                                    </label>
+                                    <input id="textinput4" placeholder="Password" value="" type="password" />
+                                </fieldset>
+                            </div>
+                            <div data-role="fieldcontain">
+                                <fieldset data-role="controlgroup" data-mini="true">
+                                    <label for="textinput5">
+                                    </label>
+                                    <input id="textinput5" placeholder="Confirm password" value="" type="password" />
+                                </fieldset>
+                            </div>
+                            <div data-role="fieldcontain">
+                                <fieldset data-role="controlgroup" data-type="vertical" data-mini="true">
+                                    <legend>
+                                    </legend>
+                                    <input name="checkbox2" id="checkbox2" type="checkbox" />
+                                    <label for="checkbox2">
+                                        I agree to ToS
+                                    </label>
+                                </fieldset>
+                            </div>
+                            <input type="submit" data-icon="arrow-r" data-iconpos="right" value="I'm ready! Let's do this" data-mini="true" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            //App custom javascript
+        </script>
+    </body>
+</html>

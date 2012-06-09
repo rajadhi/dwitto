@@ -1,0 +1,25 @@
+h2 {
+    font-weight: lighter;
+    font: 11px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h3 {
+    font-weight: lighter;
+    font: 12px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+body {
+  padding: 50px;
+  font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.text-align-center {
+    text-align: center;
+}
+.text-align-right {
+    text-align: right;
+}

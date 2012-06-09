@@ -1,0 +1,60 @@
+!!! 5
+html
+  head
+    title dwitto!
+  body
+    #page1(data-role='page')
+      div(data-theme='a', data-role='header', data-position='fixed')
+        h1 dwitto!
+      div(data-theme='d', data-role='content')
+        h2
+          | Banks divided on rate cut ANZ sign. Westpac, CBA, NAB refuse to follow ANZ's lead in passing on full cut.
+      div(data-role='content')
+        div(data-role='collapsible-set', data-theme='d', data-content-theme='d')
+          div(data-role='collapsible', data-collapsed='false')
+            h3 Let's log in
+            form(action='login', method='POST')
+              div(data-role='fieldcontain')
+                fieldset(data-role='controlgroup', data-mini='true')
+                  label(for='loginUsername')
+                  input#loginUsername(placeholder='Username', value='', type='text')
+              div(data-role='fieldcontain')
+                fieldset(data-role='controlgroup', data-mini='true')
+                  label(for='loginPassword')
+                  input#loginPassword(placeholder='Password', value='', type='password')
+              div(data-role='fieldcontain')
+                fieldset(data-role='controlgroup', data-type='vertical', data-mini='true')
+                  legend
+                  input#rememberMeCheckBox(name='rememberMeCheckBox', type='checkbox')
+                  label(for='rememberMeCheckBox')
+                    | Don't forget me!
+              input(type='submit', data-icon='arrow-r', data-iconpos='right', value="Log in", data-mini='true',
+              data-theme='e', data-content-theme='e')
+          div(data-role='collapsible', data-collapsed='true')
+            h3 Sign me up!
+            form(action='register', method='POST')
+              div(data-role='fieldcontain')
+                fieldset(data-role='controlgroup', data-mini='true')
+                  label(for='signupusername')
+                  input#signupusername(placeholder='Username', value='', type='text')
+              div(data-role='fieldcontain')
+                fieldset(data-role='controlgroup', data-mini='true')
+                  label(for='signupemail')
+                  input#signupemail(placeholder='Email', value='', type='email')
+              div(data-role='fieldcontain')
+                fieldset(data-role='controlgroup', data-mini='true')
+                  label(for='signuppassword')
+                  input#signuppassword(placeholder='Password', value='', type='password')
+              div(data-role='fieldcontain')
+                fieldset(data-role='controlgroup', data-mini='true')
+                  label(for='signuppasswordconfirm')
+                  input#signuppasswordconfirm(placeholder='Confirm password', value='', type='password')
+              div(data-role='fieldcontain')
+                fieldset(data-role='controlgroup', data-type='vertical', data-mini='true')
+                  legend
+                  input#signuptosagree(name='checkbox2', type='checkbox')
+                  label(for='signuptosagree') I agree to ToS
+              input(type='submit', data-icon='arrow-r', data-iconpos='right', value="Sign up", data-mini='true',
+              data-theme='e', data-content-theme='e')
+    script
+      //App custom javascript
